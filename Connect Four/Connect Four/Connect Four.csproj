@@ -7,6 +7,20 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>Connect Four</AssemblyName>
+    <PackageIcon>number_four_17941.ico</PackageIcon>
+    <ApplicationIcon>number_four_17941.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="number_four_17941.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\number_four_17941.ico">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
