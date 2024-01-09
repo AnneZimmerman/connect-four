@@ -1,7 +1,3 @@
-//AS Great job! 90% See comments below and in the code and resubmit.
-//AS If a column is full and you click the button again it allows you to click again and it changes the top piece according to which player it is up to, disable the column button once the column is full.(DONE)
-//AS when the game is over the column buttons should be disabled even though nothing is actually wrong but it would be nicer if they game looked disabled until you click start.(DONE)
-
 namespace Connect_Four
 {
     public partial class frmConnectFour : Form
@@ -65,7 +61,6 @@ namespace Connect_Four
                 new(){lbl35, lbl27, lbl19, lbl11}, new(){lbl27, lbl19, lbl11, lbl3},
                 new(){lbl28, lbl20, lbl12, lbl4}
             };
-//AS There is an extra comma.(DONE)
             lstbuttons = new() { btn1, btn2, btn3, btn4, btn5, btn6, btn7 };
             lstbuttons.ForEach(b => b.Enabled = false);
             btnStart.Click += BtnStart_Click;
